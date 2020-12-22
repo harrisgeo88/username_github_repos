@@ -1,15 +1,10 @@
-# 👷 `worker-template` Hello World
+# 👷 `username_github_repos`
 
-A template for kick starting a Cloudflare worker project.
+A quick API for showing a Github user's number of repositories.
 
-[`index.js`](https://github.com/cloudflare/worker-template/blob/master/index.js) is the content of the Workers script.
+URL: [https://username_github_repos.harrisgeo.workers.dev/?username=harrisgeo88](https://username_github_repos.harrisgeo.workers.dev/?username=harrisgeo88)
 
-#### Wrangler
+Not passing any query parameters will default to `harrisgeo88`.
 
-To generate using [wrangler](https://github.com/cloudflare/wrangler)
+If you want to find out more, I wrote a blog post about it [here](https://www.harrisgeo.me/blogs/deploy-your-first-serverless-function-in-5-minutes-with-cloudflare-workers)
 
-```
-wrangler generate projectname https://github.com/cloudflare/worker-template
-```
-
-Further documentation for Wrangler can be found [here](https://developers.cloudflare.com/workers/tooling/wrangler).
